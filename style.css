@@ -3,13 +3,13 @@
   top: 0;
   left: 0;
   right: 0;
-  font-family: "Lato", sans-serif;
 }
 .header__content-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 90px;
+  font-family: "Lato", sans-serif;
 }
 .header__content-top-left {
   height: 58px;
@@ -63,12 +63,18 @@
   margin: auto;
 }
 .header__menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   display: inline-block;
-  color: white;
+  color: #FFFFFF;
   font-size: 16px;
-  padding: 35px 50px;
-  letter-spacing: 1px;
+  padding: 35px 48px;
+  letter-spacing: 1.5px;
   border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.header__menu:hover {
+  color: #9E9E9E;
+  cursor: pointer;
 }
 .header__extra {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
