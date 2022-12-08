@@ -1,0 +1,77 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Lato', sans-serif;
+
+    &__content-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90px;
+    }
+    &__content-top-left{
+        height: 58px;
+        width: 147px;
+        margin-top: 6px;
+        margin-left: 22px;
+    }
+    &__logo{
+        height: 100%;
+        width: 100%;
+    }
+    &__content-top-right{
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+    }
+    &__border{
+        transform: rotate(90deg);
+        width: 40px;
+        background-color: rgba(0,0,0,0.2);
+        height: 1px;
+        border-style: none;
+    }
+    &__icon{
+        color: #AE9979;
+        font-size: 15px;
+        margin-right: 11px;
+        margin-top: 5px;
+    }
+    &__icone-name{
+        color: #02303F;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    &__content-right-wrapper{
+        margin-left: 10px;
+    }
+    &__socialicon{
+        font-size: 15px;
+        color: #042F3F;
+        padding: 0 8px;
+    }
+    &__content-bottom{
+        display: flex;
+        align-items: center;
+        background-color:#02303F;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px;
+    }
+    &__nav{
+        display: inline-block;
+        margin: auto;
+    }
+    &__menu{
+        display: inline-block;
+        color: white;
+        font-size: 16px;
+        padding: 35px 50px;
+        letter-spacing: 1px;
+        border-left: 1px solid rgba(0,0,0,0.2);
+    }
+    &__extra{
+        border-right: 1px solid rgba(0,0,0,0.2);
+    }
+
+}
