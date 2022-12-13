@@ -1,6 +1,7 @@
 .header__content-top {
   display: flex;
   align-items: center;
+  background-color: #fff;
   justify-content: space-between;
   height: 90px;
   font-family: "Lato", sans-serif;
@@ -108,6 +109,82 @@
 .hero__video {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.service {
+  padding-top: 145px;
+  padding-bottom: 140px;
+  background-color: #F8F9F8;
+  position: relative;
+}
+.service__position {
+  position: absolute;
+  top: -36px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.service__icon {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.service__top {
+  margin-bottom: 153px;
+  display: block;
+}
+.service__top h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #02303F;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.service__border {
+  width: 28px;
+  margin: auto;
+  margin-bottom: 35px;
+  height: 3px;
+  background-color: #A69C79;
+}
+.service__top-text {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: #616161;
+  line-height: 23px;
+}
+.service__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.service__bottom-wrap {
+  text-align: center;
+}
+.service__bottom-wrapper {
+  display: inline-block;
+  border: 2px solid #A69C79;
+  margin: auto;
+  padding: 48px 60px;
+  border-radius: 50%;
+}
+.service__extra {
+  padding-top: 53px;
+  padding-bottom: 53px;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+.service__bottom-wrap h3 {
+  margin-top: 32px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #02303F;
+  text-align: center;
+  margin-bottom: 27px;
+  width: 180px;
 }
 
 * {
