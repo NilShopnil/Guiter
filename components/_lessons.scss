@@ -1,0 +1,41 @@
+.lesson{
+    background-color: #042F3F;
+    padding-top: 121px;
+    padding-bottom: 120px;
+
+    &__top{
+        margin-bottom: 105px;
+        font-family: 'Roboto';
+    }
+    &__top h2{
+        font-size: 60px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    &__top p{
+        font-size: 65px;
+        font-weight: 100;
+        color: #fff;
+    }
+    &__bottom{
+        display: flex;
+        align-items: center;
+        gap: 38px;
+    }
+    &__bottom p{
+        font-size: 17px;
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: bold;
+        max-width: 400px;
+    }
+    &__border{
+        width: 45px;
+        height: 1px;
+        background-color: #A69C79;
+        transform: rotate(90deg);
+        margin-bottom: 46px;
+        margin-top: 46px;
+    }
+}
