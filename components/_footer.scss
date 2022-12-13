@@ -1,0 +1,107 @@
+.footer{
+
+    &__top{
+        padding-top: 104px;
+        background-color: #0E3642;
+        padding-bottom: 82px;
+    }
+    &__top-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__top-left{
+        width: 250px;
+    }
+    &__top-left img{
+        margin-bottom: 19px;
+    }
+    &__top-left p{
+        color: #fff;
+        font-size: 13px;
+        font-family: 'Lato';
+    }
+    &__top-mid{
+        width: 255px;
+    }
+    &__heading{
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 17px;
+        color: #fff;
+        margin-bottom: 24px;
+    }
+    &__border{
+        background-color: #A69C79;
+        width: 30px;
+        margin-bottom: 32px;
+    }
+
+    &__top-right{
+        width: 280px;
+    }
+    &__top-mid ul li{
+        margin-bottom: 20px;
+    }
+    &__icon{
+        color: #A69C79;
+        margin-right: 12px;
+    }
+    &__info{
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Lato';
+        letter-spacing: 0.3px;
+    }
+    &__date{
+        color: #858A7F;
+        font-family: 'Lato';
+        margin-bottom: 5px;
+    }
+    &__top-right h3{
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    &__top-text{
+        font-family: 'Lato';
+        font-weight: light;
+        color: #fff;
+        font-size: 13px;
+        margin-bottom: 28px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+    }
+    &__bottom{
+        padding-top: 44px;
+        padding-bottom: 42px;
+        background-color: #042F3F;
+    }
+    &__bottom-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__bottom-left{
+        display: inline-block;
+    }
+    &__copy{
+        color: #576E7D;
+        margin-right: 5px;
+    }
+    &__bottom-left p{
+        font-family: 'Roboto';
+        font-size: 13px;
+        color: #fff;
+        float: right;
+    }
+    &__bottom-right{
+        display: flex;
+        gap: 40px;
+    }
+    &__socialicon{
+        color: #667B84;
+    }
+    
+}
