@@ -1,0 +1,59 @@
+.call-us{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #9E9E9E;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left-content{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        max-width: 470px;
+        width: 100%;
+    }
+    &__logo{
+        font-size: 100px;
+        color: #042F3F;
+    }
+    &__text{
+        color: #042F3F;
+    }
+    &__text h3{
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 28px;
+    }
+    &__text p{
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 30px;
+    }
+    &__right-content{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__left-button{
+        padding: 20px 60px;
+        border: 3px solid #042F3F;
+        background-color: transparent;
+        color: #042F3F;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 18px;
+    }
+    &__right-button{
+        padding: 20px 60px;
+        border: 3px solid #042F3F;
+        background-color: #042F3F;
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+
+}
