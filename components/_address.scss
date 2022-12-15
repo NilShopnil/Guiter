@@ -1,0 +1,15 @@
+.address{
+    position: relative;
+    border-top: 5px solid #AB987A;
+    &__map{
+        overflow: hidden;
+    }
+}
+
+.address img{
+    position: absolute;
+    top:-41px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
